@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Plumbing Guides & Buying Tips | Pipex Blog</title>
+  <meta name="description" content="Technical articles, pipe selection comparisons, water tank capacity guides, faucet finish tips, and contractor procurement insights.">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Site Header -->
+  <header class="site-header">
+    <div class="container">
+      <div class="header-inner">
+        <a href="index.html" class="brand-logo">
+          <div class="brand-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+          </div>
+          <div>Pipe<span>x</span></div>
+        </a>
+
+        <ul class="nav-menu">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="home2.html" class="nav-link">Home 2</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+          <li><a href="products.html" class="nav-link">Products</a></li>
+          <li><a href="services.html" class="nav-link">Services</a></li>
+          <li><a href="blog.html" class="nav-link active">Blog</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+
+        <div class="header-actions">
+          <button class="action-btn rtl-toggle" title="Toggle RTL / LTR" aria-label="Toggle Direction">
+            <span>RTL</span>
+          </button>
+          <button class="action-btn theme-toggle" title="Toggle Theme" aria-label="Toggle Dark/Light Mode">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+          </button>
+          <button class="action-btn cart-trigger" title="View Bulk Quote List">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><rect x="8" y="2" width="8" height="4" rx="1" ry="1"/></svg>
+            <span class="cart-badge">0</span>
+          </button>
+          <a href="contact.html" class="btn btn-primary btn-sm">Get Bulk Quote</a>
+          <button class="mobile-toggle" aria-label="Toggle Menu">☰</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="mobile-nav-drawer" id="mobile-drawer">
+    <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 1.5rem;">
+      <a href="index.html" class="brand-logo">
+        <div class="brand-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+        </div>
+        <div>Pipe<span>x</span></div>
+      </a>
+      <button id="mobile-drawer-close" style="font-size: 1.5rem; color: var(--text-primary);">✕</button>
+    </div>
+
+    <!-- Mobile Drawer Actions: Cart & Bulk Quote CTA -->
+    <div style="display:flex; flex-direction:column; gap:0.75rem; margin-bottom:1.5rem; padding-bottom:1.25rem; border-bottom:1px solid var(--border-color);">
+      <button class="action-btn cart-trigger" style="width:100%; border-radius: var(--radius-md); height: 44px; display:flex; align-items:center; justify-content:center; gap:0.6rem; font-weight:700; background:var(--bg-surface-alt); border:1px solid var(--border-color); color:var(--text-primary);" title="View Bulk Quote List">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><rect x="8" y="2" width="8" height="4" rx="1" ry="1"/></svg>
+        <span>Bulk Quote List</span>
+        <span class="cart-badge" style="position:relative; top:auto; right:auto;">0</span>
+      </button>
+      <a href="contact.html" class="btn btn-primary" style="width:100%; text-align:center;">Get Bulk Quote</a>
+    </div>
+
+    <ul style="list-style:none; display:flex; flex-direction:column; gap: 1.25rem;">
+      <li><a href="index.html" style="font-weight:600; color:var(--text-primary); font-size: 1.1rem;">Home</a></li>
+      <li><a href="home2.html" style="font-weight:600; color:var(--text-primary); font-size: 1.1rem;">Home 2</a></li>
+      <li><a href="about.html" style="font-weight:600; color:var(--text-primary); font-size: 1.1rem;">About</a></li>
+      <li><a href="products.html" style="font-weight:600; color:var(--text-primary); font-size: 1.1rem;">Products</a></li>
+      <li><a href="services.html" style="font-weight:600; color:var(--text-primary); font-size: 1.1rem;">Services</a></li>
+      <li><a href="blog.html" style="font-weight:700; color:var(--accent-blue); font-size: 1.1rem;">Blog</a></li>
+      <li><a href="contact.html" style="font-weight:600; color:var(--text-primary); font-size: 1.1rem;">Contact</a></li>
+    </ul>
+  </div>
+
+  <main>
+    <!-- SECTION 1: Blog Hero with Search -->
+    <section class="section-canvas hero-gradient-section section-padding-sm" style="padding-top: 3rem; padding-bottom: 3.5rem;">
+      <div class="container">
+        <div class="grid grid-2 items-center gap-4">
+          <div>
+            <div class="section-subtitle">Technical Knowledge Base</div>
+            <h1 class="hero-title" style="margin-bottom: 0.85rem;">Plumbing Materials & Technical Buying Guides</h1>
+            <p class="hero-desc" style="margin-bottom: 1.5rem;">
+              Expert articles on pipe pressure ratings, water tank sizing formulas, valve mechanics, and bathroom fitting comparisons.
+            </p>
+
+            <div class="hero-search-group">
+              <input type="text" id="blog-search-input" class="form-input" placeholder="Search guides e.g. CPVC, Tanks, Valves..." style="font-size: 0.95rem; padding: 0.75rem 1rem;" />
+              <button class="btn btn-primary">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="margin-right: 2px;"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+                Search
+              </button>
+            </div>
+          </div>
+
+          <div>
+            <div class="card" style="padding:0; overflow:hidden; border-radius: var(--radius-xl); box-shadow: var(--shadow-hover);">
+              <img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=900&q=80" alt="Technical Plumbing Guides and Knowledge Base" style="width:100%; height: 260px; object-fit:cover;" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 2: Featured Article Section -->
+    <section class="section-white section-padding">
+      <div class="container">
+        <div class="card" style="padding: 0; overflow: hidden; border-radius: var(--radius-xl); box-shadow: var(--shadow-hover);">
+          <div class="grid grid-2 items-center gap-0">
+            <div style="height: 100%; min-height: 320px; overflow:hidden;">
+              <img src="assets/images/cat_pipes_fittings.jpg" alt="CPVC vs UPVC Pipes Guide" style="width:100%; height:100%; object-fit:cover;" />
+            </div>
+            <div style="padding: 3rem 2.5rem;">
+              <div class="badge badge-red" style="margin-bottom: 0.75rem;">FEATURED GUIDE</div>
+              <h2 style="font-size: 2rem; color: var(--text-primary); margin-bottom: 1rem; line-height: 1.3;">
+                CPVC vs UPVC vs PVC Pipes: Ultimate Contractor Selection Guide 2026
+              </h2>
+              <p style="font-size: 1rem; color: var(--text-secondary); margin-bottom: 1.5rem;">
+                Navigating SDR pressure ratings, heat tolerances up to 93°C, UV degradation factors, and solvent cement jointing procedures for long-lasting building water distribution.
+              </p>
+              <div style="display:flex; align-items:center; gap: 1.5rem; font-size: 0.85rem; color: var(--text-muted); margin-bottom: 1.5rem;">
+                <span>Author: Eng. Marcus Vance</span>
+                <span>Date: August 10, 2026</span>
+                <span>Reading Time: 6 min read</span>
+              </div>
+              <a href="#" onclick="event.preventDefault(); openBlogModal('post-1');" class="btn btn-primary">Read Full Guide →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 3: Topic Category Filters Section -->
+    <section class="section-canvas section-padding-sm" style="border-bottom: 1px solid var(--border-color);">
+      <div class="container">
+        <div class="flex flex-center gap-2 flex-wrap">
+          <button class="btn btn-primary blog-cat-btn" data-category="all">All Topics</button>
+          <button class="btn btn-secondary blog-cat-btn" data-category="Pipe Selection">Pipe Selection</button>
+          <button class="btn btn-secondary blog-cat-btn" data-category="Bathroom Design">Bathroom Design</button>
+          <button class="btn btn-secondary blog-cat-btn" data-category="Water Storage">Water Storage</button>
+          <button class="btn btn-secondary blog-cat-btn" data-category="Plumbing Tips">Plumbing Tips</button>
+          <button class="btn btn-secondary blog-cat-btn" data-category="Contractor Advice">Contractor Advice</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 4: Latest Articles Grid -->
+    <section class="section-white section-padding">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-subtitle">Recent Publications</div>
+          <h2 class="section-title">Latest Technical Articles</h2>
+          <p class="section-desc">Practical advice authored by experienced MEP engineers and trade specialists.</p>
+        </div>
+
+        <div class="grid grid-3 gap-3" id="blog-posts-grid">
+          <!-- Rendered dynamically by js/blog.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 5: Practical Buying Guides Section -->
+    <section class="section-canvas pre-newsletter-cta">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-subtitle">Quick Cheat Sheets</div>
+          <h2 class="section-title">Essential Material Selection Cheat Sheets</h2>
+          <p class="section-desc">Quick reference guides for plumbers, contractors, and DIY buyers.</p>
+        </div>
+
+        <div class="grid grid-3 gap-3">
+          <div class="blog-topic-card" style="cursor:pointer;" onclick="openBlogModal('post-1')">
+            <span class="blog-topic-badge">Sizing Guide</span>
+            <h3 class="blog-topic-title">How to Select Pipe Diameter</h3>
+            <p class="blog-topic-desc">
+              Use 1" or 1.25" main risers from overhead tanks down to floor levels, stepping down to 3/4" for bathroom loops and 1/2" for faucet point drops.
+            </p>
+            <div class="blog-topic-footer">Read Full Cheat Sheet &rarr;</div>
+          </div>
+
+          <div class="blog-topic-card" style="cursor:pointer;" onclick="openBlogModal('post-2')">
+            <span class="blog-topic-badge">Faucets & Taps</span>
+            <h3 class="blog-topic-title">Choosing Faucet Cartridges</h3>
+            <p class="blog-topic-desc">
+              Always opt for brass body faucets with German/European ceramic disc cartridges tested to 500,000 opening cycles to prevent dripping.
+            </p>
+            <div class="blog-topic-footer">Read Full Cheat Sheet &rarr;</div>
+          </div>
+
+          <div class="blog-topic-card" style="cursor:pointer;" onclick="openBlogModal('post-3')">
+            <span class="blog-topic-badge">Storage Tanks</span>
+            <h3 class="blog-topic-title">Water Tank Layer Guide</h3>
+            <p class="blog-topic-desc">
+              3-layer tanks prevent algae in mild climates. Choose 4-layer foam insulated tanks in extreme heat to keep water cool.
+            </p>
+            <div class="blog-topic-footer">Read Full Cheat Sheet &rarr;</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 6: B2B Trade Intelligence & Price Alerts Newsletter -->
+    <section class="newsletter-section">
+      <div class="container">
+        <div class="newsletter-box">
+          <div class="newsletter-glow-1"></div>
+          <div class="newsletter-glow-2"></div>
+
+          <div class="newsletter-grid">
+            <div>
+              <div class="newsletter-badge">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                B2B Trade Intelligence & Price Alerts
+              </div>
+              <h2 class="newsletter-title">Stay Ahead on Wholesale Plumbing Rates & New Releases</h2>
+              <p class="newsletter-desc">
+                Subscribe to receive weekly raw material market updates, CPVC resin price shifts, new luxury sanitaryware releases, and exclusive contractor tiered coupon codes directly in your inbox.
+              </p>
+              <div class="newsletter-perks">
+                <div class="newsletter-perk-item">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>
+                  <span>Weekly Price Index</span>
+                </div>
+                <div class="newsletter-perk-item">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>
+                  <span>Exclusive B2B Codes</span>
+                </div>
+                <div class="newsletter-perk-item">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>
+                  <span>No Spam Guarantee</span>
+                </div>
+                <div class="newsletter-perk-item">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>
+                  <span>Instant 1-Click Unsubscribe</span>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <div class="newsletter-card-form">
+                <div class="newsletter-form-title">Join 4,500+ Contractors & Builders</div>
+                <div class="newsletter-form-sub">Select your trade profile & unlock an instant 10% discount on your first order:</div>
+
+                <form class="newsletter-form">
+                  <div class="newsletter-role-select">
+                    <label class="newsletter-role-pill active">
+                      <input type="radio" name="trade_role" value="contractor" checked />
+                      <span>Contractor / Plumber</span>
+                    </label>
+                    <label class="newsletter-role-pill">
+                      <input type="radio" name="trade_role" value="builder" />
+                      <span>Builder / Architect</span>
+                    </label>
+                    <label class="newsletter-role-pill">
+                      <input type="radio" name="trade_role" value="homeowner" />
+                      <span>Homeowner</span>
+                    </label>
+                  </div>
+
+                  <div class="newsletter-input-group">
+                    <div class="newsletter-input-field">
+                      <div class="newsletter-input-icon">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                      </div>
+                      <input type="email" class="newsletter-input" placeholder="Enter your business email address..." required />
+                    </div>
+                    <button type="submit" class="newsletter-submit-btn">
+                      <span>Subscribe & Get 10% Discount Code</span>
+                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                    </button>
+                  </div>
+
+                  <div class="newsletter-legal">
+                    By subscribing you agree to our <a href="about.html">Privacy Policy</a>. We respect your inbox.
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Side Drawer & Modals -->
+  <div class="drawer-overlay" id="cart-drawer-overlay">
+    <div class="drawer-panel">
+      <div class="drawer-header">
+        <h3 style="font-size:1.15rem; color:var(--text-primary); display:flex; align-items:center; gap:0.5rem;"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><rect x="8" y="2" width="8" height="4" rx="1" ry="1"/></svg> Bulk Quotation List</h3>
+        <button id="cart-drawer-close" style="font-size:1.5rem; color:var(--text-primary);">✕</button>
+      </div>
+      <div class="drawer-body" id="cart-drawer-items"></div>
+      <div class="drawer-footer">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 1rem;">
+          <span style="font-weight:600; color:var(--text-muted);">Estimated Base Total:</span>
+          <span id="cart-drawer-total" style="font-size:1.4rem; font-weight:800; color:var(--text-primary);">$0.00</span>
+        </div>
+        <button class="btn btn-primary" id="cart-submit-quote" style="width:100%;">Submit Bulk Quotation Request →</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal-overlay" id="search-modal">
+    <div class="modal-container" style="max-width: 650px; padding: 2rem;">
+      <button class="modal-close" id="search-close">✕</button>
+      <h3 style="margin-bottom: 1rem;">Search Catalogue</h3>
+      <input type="text" id="global-search-input" class="form-input" placeholder="Type pipe, tap, valve, water tank, brand..." style="font-size: 1.1rem; padding: 1rem;" />
+      <div id="global-search-results" style="margin-top: 1.5rem; max-height: 350px; overflow-y: auto;"></div>
+    </div>
+  </div>
+
+  <div class="modal-overlay" id="quickview-modal">
+    <div class="modal-container">
+      <button class="modal-close" onclick="closeQuickView()">✕</button>
+      <div id="quickview-content"></div>
+    </div>
+  </div>
+
+  <!-- Blog Article Reader Modal -->
+  <div class="modal-overlay" id="blog-reader-modal">
+    <div class="modal-container" style="max-width: 850px; max-height: 90vh; overflow-y: auto; padding: 0;">
+      <button class="modal-close" onclick="closeBlogModal()" style="top: 1.25rem; right: 1.25rem; z-index: 10;">✕</button>
+      <div id="blog-reader-content"></div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="grid grid-4 gap-4 footer-top">
+        <div class="footer-brand">
+          <a href="index.html" class="brand-logo" style="margin-bottom:1rem;">
+            <div class="brand-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path
+                  d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z" />
+              </svg>
+            </div>
+            <div style="color:#ffffff;">Pipe<span style="color:var(--accent-blue-light);">x</span></div>
+          </a>
+          <p>Your premier distributor and retailer of certified plumbing pipes, fittings, valves, water tanks, and sanitaryware solutions.</p>
+          <div style="display:flex; gap:0.75rem;">
+            <span style="background:rgba(255,255,255,0.1); padding:0.4rem 0.75rem; border-radius:4px; color:#fff; font-size:0.8rem;">ISO 9001:2015</span>
+            <span style="background:rgba(255,255,255,0.1); padding:0.4rem 0.75rem; border-radius:4px; color:#fff; font-size:0.8rem;">ASTM Certified</span>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Product Categories</h4>
+          <ul class="footer-links">
+            <li><a href="products.html?category=pipes-fittings">CPVC & UPVC Pipes</a></li>
+            <li><a href="products.html?category=taps-faucets">Bathroom Faucets & Taps</a></li>
+            <li><a href="products.html?category=sanitaryware">Sanitaryware & Toilets</a></li>
+            <li><a href="products.html?category=water-storage">Overhead Water Tanks</a></li>
+            <li><a href="products.html?category=valves-connectors">Brass Ball & Gate Valves</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Quick Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="home2.html">Home 2 (Alternative)</a></li>
+            <li><a href="about.html">About Business</a></li>
+            <li><a href="products.html">Product Catalogue</a></li>
+            <li><a href="services.html">B2B Contractor Services</a></li>
+            <li><a href="blog.html">Plumbing Buying Guides</a></li>
+            <li><a href="contact.html">Store Contact & Location</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Store Hours & Location</h4>
+          <p style="font-size:0.9rem; margin-bottom:0.5rem; display:flex; align-items:center; gap:0.5rem;"><svg
+              width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+              <circle cx="12" cy="10" r="3" />
+            </svg> 742 Industrial Parkway, Plumbing District</p>
+          <p style="font-size:0.9rem; margin-bottom:0.5rem; display:flex; align-items:center; gap:0.5rem;"><svg
+              width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2">
+              <path
+                d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+            </svg> +1 (800) 555-PLUMB / +1 (800) 555-7586</p>
+          <p style="font-size:0.9rem; margin-bottom:0.5rem; display:flex; align-items:center; gap:0.5rem;"><svg
+              width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+              <polyline points="22,6 12,13 2,6" />
+            </svg> sales@pipexsupplies.com</p>
+          <p style="font-size:0.85rem; color:var(--accent-blue); margin-top:0.75rem; display:flex; align-items:flex-start; gap:0.5rem;"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-top:2px;"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg><span>Mon - Sat: 7:30 AM - 7:00 PM<br>Sunday: 9:00 AM - 4:00 PM</span></p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>© 2026 Pipex Plumbing Supplies & Sanitaryware. All Rights Reserved.</div>
+        <div style="display:flex; gap: 1.5rem;">
+          <a href="contact.html" style="color:#94a3b8;">Terms of Sale</a>
+          <a href="contact.html" style="color:#94a3b8;">Privacy Policy</a>
+          <a href="contact.html" style="color:#94a3b8;">Contractor Login</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/products.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/blog.js"></script>
+</body>
+</html>

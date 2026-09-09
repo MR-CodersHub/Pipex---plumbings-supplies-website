@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Complete Sanitary & Piping Solutions | Pipex Home 2</title>
+  <meta name="description" content="Product-centric showroom home for luxury sanitary fittings, heavy CPVC/UPVC piping systems, contractor quantity discounts, and project procurement.">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Site Header -->
+  <header class="site-header">
+    <div class="container">
+      <div class="header-inner">
+        <a href="index.html" class="brand-logo">
+          <div class="brand-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+          </div>
+          <div>Pipe<span>x</span></div>
+        </a>
+
+        <ul class="nav-menu">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="home2.html" class="nav-link active">Home 2</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+          <li><a href="products.html" class="nav-link">Products</a></li>
+          <li><a href="services.html" class="nav-link">Services</a></li>
+          <li><a href="blog.html" class="nav-link">Blog</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+
+        <div class="header-actions">
+          <button class="action-btn rtl-toggle" title="Toggle RTL / LTR" aria-label="Toggle Direction">
+            <span>RTL</span>
+          </button>
+          <button class="action-btn theme-toggle" title="Toggle Theme" aria-label="Toggle Dark/Light Mode">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+          </button>
+          <button class="action-btn cart-trigger" title="View Bulk Quote List">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><rect x="8" y="2" width="8" height="4" rx="1" ry="1"/></svg>
+            <span class="cart-badge">0</span>
+          </button>
+          <a href="contact.html" class="btn btn-primary btn-sm">Get Bulk Quote</a>
+          <button class="mobile-toggle" aria-label="Toggle Menu">☰</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="mobile-nav-drawer" id="mobile-drawer">
+    <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 1.5rem;">
+      <a href="index.html" class="brand-logo">
+        <div class="brand-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+        </div>
+        <div>Pipe<span>x</span></div>
+      </a>
+      <button id="mobile-drawer-close" style="font-size: 1.5rem; color: var(--text-primary);">✕</button>
+    </div>
+
+    <!-- Mobile Drawer Actions: Cart & Bulk Quote CTA -->
+    <div style="display:flex; flex-direction:column; gap:0.75rem; margin-bottom:1.5rem; padding-bottom:1.25rem; border-bottom:1px solid var(--border-color);">
+      <button class="action-btn cart-trigger" style="width:100%; border-radius: var(--radius-md); height: 44px; display:flex; align-items:center; justify-content:center; gap:0.6rem; font-weight:700; background:var(--bg-surface-alt); border:1px solid var(--border-color); color:var(--text-primary);" title="View Bulk Quote List">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><rect x="8" y="2" width="8" height="4" rx="1" ry="1"/></svg>
+        <span>Bulk Quote List</span>
+        <span class="cart-badge" style="position:relative; top:auto; right:auto;">0</span>
+      </button>
+      <a href="contact.html" class="btn btn-primary" style="width:100%; text-align:center;">Get Bulk Quote</a>
+    </div>
+
+    <ul style="list-style:none; display:flex; flex-direction:column; gap: 1.25rem;">
+      <li><a href="index.html" style="font-weight:600; color:var(--text-primary); font-size: 1.1rem;">Home</a></li>
+      <li><a href="home2.html" style="font-weight:700; color:var(--accent-blue); font-size: 1.1rem;">Home 2</a></li>
+      <li><a href="about.html" style="font-weight:600; color:var(--text-primary); font-size: 1.1rem;">About</a></li>
+      <li><a href="products.html" style="font-weight:600; color:var(--text-primary); font-size: 1.1rem;">Products</a></li>
+      <li><a href="services.html" style="font-weight:600; color:var(--text-primary); font-size: 1.1rem;">Services</a></li>
+      <li><a href="blog.html" style="font-weight:600; color:var(--text-primary); font-size: 1.1rem;">Blog</a></li>
+      <li><a href="contact.html" style="font-weight:600; color:var(--text-primary); font-size: 1.1rem;">Contact</a></li>
+    </ul>
+  </div>
+
+  <main>
+    <!-- SECTION 1: Search-Driven Material Hero -->
+    <section class="section-canvas hero-gradient-section section-padding" style="padding-top: 3rem; padding-bottom: 4rem;">
+      <div class="container">
+        <div class="grid grid-2 items-center gap-4">
+          <div>
+            <div class="badge badge-blue" style="margin-bottom: 0.75rem; padding: 0.4rem 1rem;">Complete Bathroom & Piping Solutions</div>
+            <h1 class="hero-title" style="margin-bottom: 1rem;">
+              Complete Plumbing & <span style="color: var(--accent-blue);">Sanitaryware</span> Showroom
+            </h1>
+            <p class="hero-desc" style="margin-bottom: 1.75rem;">
+              Discover an extensive showcase of engineered valves, thermostatic rainfall showers, CPVC pressure fittings, and water tanks engineered for modern architecture.
+            </p>
+
+            <div class="card" style="padding: 1rem; background: var(--bg-surface); margin-bottom: 1.5rem; border-left: 4px solid var(--accent-blue);">
+              <div style="font-weight:700; color:var(--text-primary); font-size:0.9rem; margin-bottom:0.4rem;">Fast In-Store Material Search:</div>
+              <div class="hero-search-group">
+                <input type="text" class="form-input search-trigger" placeholder="Search size, brand, valves..." style="font-size:0.88rem; cursor:pointer;" readonly />
+                <button class="btn btn-primary search-trigger">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="margin-right: 2px;"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+                  Search
+                </button>
+              </div>
+            </div>
+
+            <div class="flex gap-2 flex-wrap">
+              <a href="products.html" class="btn btn-primary">Browse Catalogue</a>
+              <a href="contact.html" class="btn btn-secondary">Contractor Rates</a>
+            </div>
+          </div>
+
+          <div>
+            <div class="card" style="padding:0; overflow:hidden; border-radius: var(--radius-xl); box-shadow: var(--shadow-hover);">
+              <img src="https://images.unsplash.com/photo-1620626011761-996317b8d101?auto=format&fit=crop&w=900&q=80" alt="Luxury Sanitaryware and Shower Showroom" style="width:100%; height: 380px; object-fit:cover;" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 2: Shop by Application Section -->
+    <section class="section-white section-padding">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-subtitle">Application Focus</div>
+          <h2 class="section-title">Shop Plumbing Supplies by Application</h2>
+          <p class="section-desc">Tailored material bundles engineered for specific plumbing requirements.</p>
+        </div>
+
+        <div class="grid grid-3 gap-3">
+          <!-- Card 1: Bathroom -->
+          <div class="app-card">
+            <div class="app-card-img-wrap">
+              <span class="app-card-badge">Bathroom</span>
+              <img src="assets/images/sanitaryware_hero.jpg" alt="Bathroom Plumbing" />
+              <div class="app-card-img-overlay"></div>
+            </div>
+            <div class="app-card-body">
+              <h3 class="app-card-title">Bathroom Plumbing</h3>
+              <p class="app-card-desc">Concealed shower mixers, drain channels, wall-hung closets & hot water lines built for luxury wet areas.</p>
+              <div class="app-card-tags">
+                <span class="app-tag">Concealed Mixers</span>
+                <span class="app-tag">Drain Channels</span>
+                <span class="app-tag">Wall-Hung</span>
+              </div>
+              <a href="products.html?category=sanitaryware" class="app-card-btn">
+                <span>View Bathroom Items</span>
+                <span class="btn-arrow">&rarr;</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Card 2: Kitchen -->
+          <div class="app-card">
+            <div class="app-card-img-wrap">
+              <span class="app-card-badge">Kitchen</span>
+              <img src="assets/images/cat_taps_faucets.jpg" alt="Kitchen Plumbing" />
+              <div class="app-card-img-overlay"></div>
+            </div>
+            <div class="app-card-body">
+              <h3 class="app-card-title">Kitchen Plumbing</h3>
+              <p class="app-card-desc">Pull-out sink faucets, heavy stainless steel sinks, grease traps & braided flex connectors for modern kitchens.</p>
+              <div class="app-card-tags">
+                <span class="app-tag">Sink Faucets</span>
+                <span class="app-tag">SS Sinks</span>
+                <span class="app-tag">Grease Traps</span>
+              </div>
+              <a href="products.html?category=taps-faucets" class="app-card-btn">
+                <span>View Kitchen Items</span>
+                <span class="btn-arrow">&rarr;</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Card 3: Water Supply Mainlines -->
+          <div class="app-card">
+            <div class="app-card-img-wrap">
+              <span class="app-card-badge">Mainlines</span>
+              <img src="assets/images/hero_plumbing.jpg" alt="Water Supply Lines" />
+              <div class="app-card-img-overlay"></div>
+            </div>
+            <div class="app-card-body">
+              <h3 class="app-card-title">Water Supply Mainlines</h3>
+              <p class="app-card-desc">Heavy-gauge CPVC riser pipes, brass pressure regulating valves & water meter assemblies for building mains.</p>
+              <div class="app-card-tags">
+                <span class="app-tag">CPVC Risers</span>
+                <span class="app-tag">Pressure Valves</span>
+                <span class="app-tag">Meters</span>
+              </div>
+              <a href="products.html?category=pipes-fittings" class="app-card-btn">
+                <span>View Supply Pipes</span>
+                <span class="btn-arrow">&rarr;</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Card 4: Drainage & Rainwater -->
+          <div class="app-card">
+            <div class="app-card-img-wrap">
+              <span class="app-card-badge">Drainage</span>
+              <img src="assets/images/cat_pipes_fittings.jpg" alt="Drainage Lines" />
+              <div class="app-card-img-overlay"></div>
+            </div>
+            <div class="app-card-body">
+              <h3 class="app-card-title">Drainage & Rainwater</h3>
+              <p class="app-card-desc">SWR drainage pipes, cleanouts, gully traps & rainwater harvesting fittings engineered for smooth flow.</p>
+              <div class="app-card-tags">
+                <span class="app-tag">SWR Pipes</span>
+                <span class="app-tag">Gully Traps</span>
+                <span class="app-tag">Rainwater</span>
+              </div>
+              <a href="products.html?category=pipes-fittings" class="app-card-btn">
+                <span>View Drainage Lines</span>
+                <span class="btn-arrow">&rarr;</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Card 5: Commercial Buildings -->
+          <div class="app-card">
+            <div class="app-card-img-wrap">
+              <span class="app-card-badge">Commercial</span>
+              <img src="assets/images/contractor_warehouse.jpg" alt="Commercial Line" />
+              <div class="app-card-img-overlay"></div>
+            </div>
+            <div class="app-card-body">
+              <h3 class="app-card-title">Commercial Buildings</h3>
+              <p class="app-card-desc">Sensor faucets, automatic flush urinals, fire suppression valves & high-capacity pressure booster pumps.</p>
+              <div class="app-card-tags">
+                <span class="app-tag">Sensor Taps</span>
+                <span class="app-tag">Auto Flush</span>
+                <span class="app-tag">Booster Pumps</span>
+              </div>
+              <a href="products.html?category=valves-connectors" class="app-card-btn">
+                <span>View Commercial Line</span>
+                <span class="btn-arrow">&rarr;</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Card 6: Industrial Piping -->
+          <div class="app-card">
+            <div class="app-card-img-wrap">
+              <span class="app-card-badge">Industrial</span>
+              <img src="assets/images/cat_valves_connectors.jpg" alt="Industrial Valves" />
+              <div class="app-card-img-overlay"></div>
+            </div>
+            <div class="app-card-body">
+              <h3 class="app-card-title">Industrial Piping</h3>
+              <p class="app-card-desc">Schedule 80 UPVC pressure pipes, chemical resistant butterfly valves & heavy forged flange connectors.</p>
+              <div class="app-card-tags">
+                <span class="app-tag">Sch 80 UPVC</span>
+                <span class="app-tag">Butterfly Valves</span>
+                <span class="app-tag">Flanges</span>
+              </div>
+              <a href="products.html?category=valves-connectors" class="app-card-btn">
+                <span>View Industrial Valves</span>
+                <span class="btn-arrow">&rarr;</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 3: Best-Selling Product Showcase (Horizontal Grid) -->
+    <section class="section-canvas section-padding">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-subtitle">Top Seller Showcase</div>
+          <h2 class="section-title">Best-Selling Plumbing Products</h2>
+          <p class="section-desc">Popular products preferred by local plumbers, contractors, and interior designers.</p>
+        </div>
+
+        <div class="grid grid-2 gap-4">
+          <div class="card bestseller-card">
+            <img src="https://images.unsplash.com/photo-1585704032915-c3400ca199e7?auto=format&fit=crop&w=400&q=80" alt="CPVC Pipe" class="bestseller-card-img" />
+            <div style="flex:1; min-width:0;">
+              <span class="badge badge-blue">Supreme</span>
+              <h4 style="font-size:1.1rem; margin-top:0.25rem; margin-bottom:0.35rem; word-break:break-word;">High-Density CPVC Hot & Cold Water Pipe 3/4"</h4>
+              <div style="color:var(--accent-amber); font-size:0.85rem; margin-bottom:0.5rem;">★★★★★ (128 Reviews)</div>
+              <div style="display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap: 0.75rem;">
+                <span style="font-weight:800; font-size:1.25rem; color:var(--text-primary);">$18.50</span>
+                <button class="btn btn-primary btn-sm" onclick="addToQuoteCart('prod-001', 10)">+ Add to Quote</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="card bestseller-card">
+            <img src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=400&q=80" alt="Basin Faucet" class="bestseller-card-img" />
+            <div style="flex:1; min-width:0;">
+              <span class="badge badge-green">Jaquar</span>
+              <h4 style="font-size:1.1rem; margin-top:0.25rem; margin-bottom:0.35rem; word-break:break-word;">Chrome Waterfall Basin Mixer Tap</h4>
+              <div style="color:var(--accent-amber); font-size:0.85rem; margin-bottom:0.5rem;">★★★★★ (94 Reviews)</div>
+              <div style="display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap: 0.75rem;">
+                <span style="font-weight:800; font-size:1.25rem; color:var(--text-primary);">$74.00</span>
+                <button class="btn btn-primary btn-sm" onclick="addToQuoteCart('prod-002', 1)">+ Add to Quote</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="card bestseller-card">
+            <img src="https://images.unsplash.com/photo-1620626011761-996317b8d101?auto=format&fit=crop&w=400&q=80" alt="Shower System" class="bestseller-card-img" />
+            <div style="flex:1; min-width:0;">
+              <span class="badge badge-red">Kohler</span>
+              <h4 style="font-size:1.1rem; margin-top:0.25rem; margin-bottom:0.35rem; word-break:break-word;">Thermostatic Dual Rainfall Shower System</h4>
+              <div style="color:var(--accent-amber); font-size:0.85rem; margin-bottom:0.5rem;">★★★★★ (64 Reviews)</div>
+              <div style="display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap: 0.75rem;">
+                <span style="font-weight:800; font-size:1.25rem; color:var(--text-primary);">$245.00</span>
+                <button class="btn btn-primary btn-sm" onclick="addToQuoteCart('prod-003', 1)">+ Add to Quote</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="card bestseller-card">
+            <img src="https://images.unsplash.com/photo-1617103996702-96ff29b1c467?auto=format&fit=crop&w=400&q=80" alt="Brass Ball Valve" class="bestseller-card-img" />
+            <div style="flex:1; min-width:0;">
+              <span class="badge badge-amber">Prince</span>
+              <h4 style="font-size:1.1rem; margin-top:0.25rem; margin-bottom:0.35rem; word-break:break-word;">Heavy Duty Brass Ball Valve 1" Female</h4>
+              <div style="color:var(--accent-amber); font-size:0.85rem; margin-bottom:0.5rem;">★★★★★ (156 Reviews)</div>
+              <div style="display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap: 0.75rem;">
+                <span style="font-weight:800; font-size:1.25rem; color:var(--text-primary);">$22.90</span>
+                <button class="btn btn-primary btn-sm" onclick="addToQuoteCart('prod-004', 5)">+ Add to Quote</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 4: Sanitary Fittings Feature Highlight -->
+    <section class="section-white section-padding">
+      <div class="container">
+        <div class="grid grid-2 items-center gap-4">
+          <div>
+            <div class="section-subtitle">Luxury Sanitary Range</div>
+            <h2 class="section-title">Architectural Sanitaryware & Designer Faucets</h2>
+            <p class="section-desc" style="margin-bottom:1.5rem;">
+              Elevate modern bathrooms with anti-bacterial ceramic basins, wall-hung rimless water closets, and water-saving aerated faucets.
+            </p>
+            <div class="grid grid-2 gap-2" style="margin-bottom:2rem;">
+              <div style="background:var(--bg-surface-tint); padding:1rem; border-radius:var(--radius-md);">
+                <div style="font-weight:700; color:var(--text-primary); font-size:0.95rem;">✨ PVD Multi-Coat Finish</div>
+                <div style="font-size:0.85rem; color:var(--text-muted);">Scratch & tarnish resistant chrome, rose gold & matte black.</div>
+              </div>
+              <div style="background:var(--bg-surface-tint); padding:1rem; border-radius:var(--radius-md);">
+                <div style="font-weight:700; color:var(--text-primary); font-size:0.95rem;">💧 Eco Dual-Flush Technology</div>
+                <div style="font-size:0.85rem; color:var(--text-muted);">Saves up to 15,000 litres of water per household annually.</div>
+              </div>
+            </div>
+            <a href="products.html?category=sanitaryware" class="btn btn-primary">Explore Sanitary Collection →</a>
+          </div>
+          <div>
+            <img src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=800&q=80" alt="Luxury Sanitaryware Display" style="border-radius: var(--radius-xl); box-shadow: var(--shadow-hover); width:100%; height: 350px; object-fit:cover;" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 5: Pipe & Fittings Solution Section -->
+    <section class="section-canvas section-padding">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-subtitle">Technical Piping Systems</div>
+          <h2 class="section-title">CPVC, UPVC & SWR Piping Solutions</h2>
+          <p class="section-desc">Certified pressure-rated pipe networks designed for zero leakage and maximum durability.</p>
+        </div>
+
+        <div class="grid grid-3 gap-3">
+          <!-- Card 1: CPVC -->
+          <div class="piping-card">
+            <div class="piping-header">
+              <span class="piping-badge">Hot & Cold Lines</span>
+              <div class="piping-icon-indicator" title="Temperature Rating">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+              </div>
+            </div>
+            <h3 class="piping-title">CPVC Pro Pipe Network</h3>
+            <p class="piping-desc">Handles water temperatures up to 93°C without sagging or chemical leaching. Ideal for residential & commercial hot water plumbing.</p>
+            <div class="piping-spec-box">
+              <div class="piping-spec-label">Pressure Rating & Standard</div>
+              <div class="piping-spec-value">SDR 11 / 28 kg/cm² • IS 15778</div>
+            </div>
+            <div class="piping-tags">
+              <span class="piping-chip">93°C Temp Max</span>
+              <span class="piping-chip">Hot/Cold Dual</span>
+              <span class="piping-chip">Solvent Weld</span>
+            </div>
+            <div class="piping-footer">
+              <span class="cta-link">View CPVC Specs &rarr;</span>
+              <span style="font-size: 0.78rem; font-weight: 500; color: var(--text-muted);">In Stock</span>
+            </div>
+          </div>
+
+          <!-- Card 2: UPVC -->
+          <div class="piping-card piping-card-green">
+            <div class="piping-header">
+              <span class="piping-badge piping-badge-green">Cold Supply & Mainlines</span>
+              <div class="piping-icon-indicator" title="High Pressure">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+              </div>
+            </div>
+            <h3 class="piping-title">UPVC High-Pressure Lines</h3>
+            <p class="piping-desc">Lead-free UV resistant UPVC pipes for ring mainlines, high-rise risers, and outdoor water distribution networks.</p>
+            <div class="piping-spec-box">
+              <div class="piping-spec-label">Pressure Rating & Standard</div>
+              <div class="piping-spec-value">SCH 40 & SCH 80 • ASTM D1785</div>
+            </div>
+            <div class="piping-tags">
+              <span class="piping-chip">UV Resistant</span>
+              <span class="piping-chip">Lead-Free</span>
+              <span class="piping-chip">High-Rise Risers</span>
+            </div>
+            <div class="piping-footer">
+              <span class="cta-link">View UPVC Specs &rarr;</span>
+              <span style="font-size: 0.78rem; font-weight: 500; color: var(--text-muted);">In Stock</span>
+            </div>
+          </div>
+
+          <!-- Card 3: SWR -->
+          <div class="piping-card piping-card-amber">
+            <div class="piping-header">
+              <span class="piping-badge piping-badge-amber">Soil & Waste Drainage</span>
+              <div class="piping-icon-indicator" title="Drainage & Venting">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+              </div>
+            </div>
+            <h3 class="piping-title">SWR Drainage & Venting</h3>
+            <p class="piping-desc">Ring-fit elastomeric rubber seal joint pipes for silent, 100% leak-proof soil, waste, and rainwater drainage systems.</p>
+            <div class="piping-spec-box">
+              <div class="piping-spec-label">Joint Type & Standard</div>
+              <div class="piping-spec-value">IS 13592 • Ring-Fit Rubber Joint</div>
+            </div>
+            <div class="piping-tags">
+              <span class="piping-chip">Silent Drainage</span>
+              <span class="piping-chip">Ring-Fit Joint</span>
+              <span class="piping-chip">Rainwater</span>
+            </div>
+            <div class="piping-footer">
+              <span class="cta-link">View SWR Specs &rarr;</span>
+              <span style="font-size: 0.78rem; font-weight: 500; color: var(--text-muted);">In Stock</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 6: Bulk-Order Pricing Calculator Section -->
+    <section class="section-white section-padding">
+      <div class="container">
+        <div class="card tier-discount-card" style="background: linear-gradient(135deg, #0a192f 0%, #071222 100%); color:#ffffff; border-radius: var(--radius-xl);">
+          <div class="grid grid-2 items-center gap-4">
+            <div>
+              <div class="badge badge-red" style="margin-bottom: 0.75rem;">CONTRACTOR BULK DISCOUNTS</div>
+              <h2 class="section-title" style="color:#ffffff; margin-bottom:1rem; text-align:left;">Tiered Quantity Discounts for Large Projects</h2>
+              <p style="color:#94a3b8; font-size:1rem; margin-bottom:1.5rem;">
+                Are you purchasing for a apartment complex, hotel project, or hardware retail store? Unlock wholesale tier brackets automatically.
+              </p>
+              <div style="display:flex; flex-direction:column; gap:0.75rem; font-size:0.95rem; margin-bottom:2rem;">
+                <div class="tier-row">
+                  <span>50 - 199 Pipe Lengths / Units:</span>
+                  <strong style="color:var(--accent-blue-light);">12% Wholesale Off</strong>
+                </div>
+                <div class="tier-row">
+                  <span>200 - 499 Units:</span>
+                  <strong style="color:var(--accent-blue-light);">20% Wholesale Off</strong>
+                </div>
+                <div class="tier-row">
+                  <span>500+ Units / Full BOQ:</span>
+                  <strong style="color:var(--accent-red);">28% Maximum Contractor Off</strong>
+                </div>
+              </div>
+              <a href="contact.html" class="btn btn-primary btn-lg">Submit BOQ for Volume Pricing →</a>
+            </div>
+            <div style="text-align:center; padding: 2rem 1.5rem; background: rgba(255,255,255,0.05); border-radius: var(--radius-xl); border: 1px solid rgba(255,255,255,0.12);">
+              <div style="width:80px; height:80px; border-radius:50%; background: rgba(0,102,204,0.25); border: 2px solid rgba(56,189,248,0.5); color:#38bdf8; display:flex; align-items:center; justify-content:center; margin:0 auto 1.25rem auto; box-shadow: 0 0 24px rgba(56,189,248,0.2);">
+                <svg width="38" height="38" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.11 12 19.79 19.79 0 0 1 1.07 3.38 2 2 0 0 1 3 1h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              </div>
+              <h3 style="color:#ffffff; margin-bottom:0.6rem; font-size:1.3rem; font-weight:800; letter-spacing:-0.01em;">Instant Contractor Desk</h3>
+              <p style="color:#cbd5e1; font-size:0.95rem; line-height:1.6; margin-bottom:1.25rem;">Call our dedicated B2B trade desk for custom credit terms and volume quotes.</p>
+              <div style="font-size:1.6rem; font-weight:800; color:#38bdf8; letter-spacing:0.02em; text-shadow: 0 0 20px rgba(56,189,248,0.4);">+1 (800) 555-PLUMB</div>
+              <div style="margin-top:0.6rem; font-size:0.8rem; color:#94a3b8; text-transform:uppercase; letter-spacing:0.06em;">Mon – Sat · 7:30 AM – 7:00 PM</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 7: Customer Trust & Statistics Section -->
+    <section class="section-canvas section-padding">
+      <div class="container">
+        <div class="grid grid-4 text-center gap-3">
+          <div class="card" style="padding: 2rem 1.5rem; text-align:center;">
+            <div style="font-family:var(--font-heading); font-size: 2.8rem; font-weight: 800; color: var(--accent-blue); margin-bottom: 0.25rem;">15+</div>
+            <div style="font-weight: 700; color: var(--text-primary); font-size: 1.05rem;">Years Serving Trade</div>
+            <div style="font-size: 0.85rem; color: var(--text-muted); margin-top: 0.35rem;">Established plumbing supplier since 2011</div>
+          </div>
+
+          <div class="card" style="padding: 2rem 1.5rem; text-align:center;">
+            <div style="font-family:var(--font-heading); font-size: 2.8rem; font-weight: 800; color: var(--accent-blue); margin-bottom: 0.25rem;">12,000+</div>
+            <div style="font-weight: 700; color: var(--text-primary); font-size: 1.05rem;">Products in Stock</div>
+            <div style="font-size: 0.85rem; color: var(--text-muted); margin-top: 0.35rem;">Pipes, valves, fittings & sanitaryware</div>
+          </div>
+
+          <div class="card" style="padding: 2rem 1.5rem; text-align:center;">
+            <div style="font-family:var(--font-heading); font-size: 2.8rem; font-weight: 800; color: var(--accent-blue); margin-bottom: 0.25rem;">500+</div>
+            <div style="font-weight: 700; color: var(--text-primary); font-size: 1.05rem;">Active Contractors</div>
+            <div style="font-size: 0.85rem; color: var(--text-muted); margin-top: 0.35rem;">Builder and plumber accounts</div>
+          </div>
+
+          <div class="card" style="padding: 2rem 1.5rem; text-align:center;">
+            <div style="font-family:var(--font-heading); font-size: 2.8rem; font-weight: 800; color: var(--accent-blue); margin-bottom: 0.25rem;">99.4%</div>
+            <div style="font-weight: 700; color: var(--text-primary); font-size: 1.05rem;">On-Time Delivery</div>
+            <div style="font-size: 0.85rem; color: var(--text-muted); margin-top: 0.35rem;">Dispatched within 24 hours</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 7: Visit Physical Store & Counter Pickup -->
+    <section class="section-canvas pre-newsletter-cta">
+      <div class="container">
+        <div class="grid grid-2 items-center gap-4">
+          <div>
+            <div class="section-subtitle">Showroom & Distribution Depot</div>
+            <h2 class="section-title">Visit Our Physical Plumbing Store</h2>
+            <p class="section-desc" style="margin-bottom: 1.5rem;">
+              Walk into our 15,000 sq.ft. plumbing showroom to inspect live sanitaryware displays, test tap finishes, and pick up pipe fittings directly from our trade counter.
+            </p>
+
+            <div style="background:var(--bg-surface-tint); padding:1.25rem; border-radius:var(--radius-lg); margin-bottom:1.5rem;">
+              <div style="font-weight:700; color:var(--text-primary); margin-bottom:0.5rem;">📍 Showroom Address & Counter:</div>
+              <p style="font-size:0.9rem; color:var(--text-secondary); margin-bottom:0.5rem;">742 Industrial Parkway, Plumbing District, Metro Industrial City</p>
+              <div style="font-size:0.85rem; color:var(--accent-blue); font-weight:700;">🟢 Counter Open Now: 7:30 AM - 7:00 PM</div>
+            </div>
+
+            <div class="flex gap-2 flex-wrap">
+              <a href="contact.html" class="btn btn-primary">Get Driving Directions</a>
+              <a href="tel:+18005557586" class="btn btn-secondary">Call Counter Desk</a>
+            </div>
+          </div>
+
+          <div>
+            <div class="card" style="padding: 2rem;">
+              <h3 style="margin-bottom: 1rem;">Quick In-Store Enquiry</h3>
+              <form id="store-enquiry-form">
+                <div class="form-group">
+                  <label class="form-label" for="input-name">Your Name</label>
+                  <input type="text" id="input-name" class="form-input" placeholder="e.g. David Sterling" required />
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="input-phone">Phone Number</label>
+                  <input type="tel" id="input-phone" class="form-input" placeholder="+1 (555) 000-0000" required />
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="input-email">Email Address</label>
+                  <input type="email" id="input-email" class="form-input" placeholder="email@domain.com" required />
+                </div>
+                <div class="form-group">
+                  <label class="form-label">Material Requirement</label>
+                  <select class="form-select">
+                    <option>Pipes & Fittings (CPVC/UPVC)</option>
+                    <option>Sanitaryware & Toilets</option>
+                    <option>Taps & Faucets</option>
+                    <option>Water Storage Tanks</option>
+                    <option>Valves & Industrial Fittings</option>
+                  </select>
+                </div>
+                <button type="submit" class="btn btn-primary" style="width:100%;">Submit Immediate Enquiry</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 8: B2B Trade Intelligence & Price Alerts Newsletter -->
+    <section class="newsletter-section">
+      <div class="container">
+        <div class="newsletter-box">
+          <div class="newsletter-glow-1"></div>
+          <div class="newsletter-glow-2"></div>
+
+          <div class="newsletter-grid">
+            <div>
+              <div class="newsletter-badge">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                B2B Trade Intelligence & Price Alerts
+              </div>
+              <h2 class="newsletter-title">Stay Ahead on Wholesale Plumbing Rates & New Releases</h2>
+              <p class="newsletter-desc">
+                Subscribe to receive weekly raw material market updates, CPVC resin price shifts, new luxury sanitaryware releases, and exclusive contractor tiered coupon codes directly in your inbox.
+              </p>
+              <div class="newsletter-perks">
+                <div class="newsletter-perk-item">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>
+                  <span>Weekly Price Index</span>
+                </div>
+                <div class="newsletter-perk-item">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>
+                  <span>Exclusive B2B Codes</span>
+                </div>
+                <div class="newsletter-perk-item">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>
+                  <span>No Spam Guarantee</span>
+                </div>
+                <div class="newsletter-perk-item">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>
+                  <span>Instant 1-Click Unsubscribe</span>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <div class="newsletter-card-form">
+                <div class="newsletter-form-title">Join 4,500+ Contractors & Builders</div>
+                <div class="newsletter-form-sub">Select your trade profile & unlock an instant 10% discount on your first order:</div>
+
+                <form class="newsletter-form">
+                  <div class="newsletter-role-select">
+                    <label class="newsletter-role-pill active">
+                      <input type="radio" name="trade_role" value="contractor" checked />
+                      <span>Contractor / Plumber</span>
+                    </label>
+                    <label class="newsletter-role-pill">
+                      <input type="radio" name="trade_role" value="builder" />
+                      <span>Builder / Architect</span>
+                    </label>
+                    <label class="newsletter-role-pill">
+                      <input type="radio" name="trade_role" value="homeowner" />
+                      <span>Homeowner</span>
+                    </label>
+                  </div>
+
+                  <div class="newsletter-input-group">
+                    <div class="newsletter-input-field">
+                      <div class="newsletter-input-icon">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                      </div>
+                      <input type="email" class="newsletter-input" placeholder="Enter your business email address..." required />
+                    </div>
+                    <button type="submit" class="newsletter-submit-btn">
+                      <span>Subscribe & Get 10% Discount Code</span>
+                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                    </button>
+                  </div>
+
+                  <div class="newsletter-legal">
+                    By subscribing you agree to our <a href="about.html">Privacy Policy</a>. We respect your inbox.
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Side Drawer -->
+  <div class="drawer-overlay" id="cart-drawer-overlay">
+    <div class="drawer-panel">
+      <div class="drawer-header">
+        <h3 style="font-size:1.15rem; color:var(--text-primary); display:flex; align-items:center; gap:0.5rem;"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><rect x="8" y="2" width="8" height="4" rx="1" ry="1"/></svg> Bulk Quotation List</h3>
+        <button id="cart-drawer-close" style="font-size:1.5rem; color:var(--text-primary);">✕</button>
+      </div>
+      <div class="drawer-body" id="cart-drawer-items"></div>
+      <div class="drawer-footer">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 1rem;">
+          <span style="font-weight:600; color:var(--text-muted);">Estimated Base Total:</span>
+          <span id="cart-drawer-total" style="font-size:1.4rem; font-weight:800; color:var(--text-primary);">$0.00</span>
+        </div>
+        <button class="btn btn-primary" id="cart-submit-quote" style="width:100%;">Submit Bulk Quotation Request →</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Search Modal -->
+  <div class="modal-overlay" id="search-modal">
+    <div class="modal-container" style="max-width: 650px; padding: 2rem;">
+      <button class="modal-close" id="search-close">✕</button>
+      <h3 style="margin-bottom: 1rem;">Search Catalogue</h3>
+      <input type="text" id="global-search-input" class="form-input" placeholder="Type pipe, tap, valve, water tank, brand..." style="font-size: 1.1rem; padding: 1rem;" />
+      <div id="global-search-results" style="margin-top: 1.5rem; max-height: 350px; overflow-y: auto;"></div>
+    </div>
+  </div>
+
+  <!-- Quick View Modal -->
+  <div class="modal-overlay" id="quickview-modal">
+    <div class="modal-container">
+      <button class="modal-close" onclick="closeQuickView()">✕</button>
+      <div id="quickview-content"></div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="grid grid-4 gap-4 footer-top">
+        <div class="footer-brand">
+          <a href="index.html" class="brand-logo" style="margin-bottom:1rem;">
+            <div class="brand-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path
+                  d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z" />
+              </svg>
+            </div>
+            <div style="color:#ffffff;">Pipe<span style="color:var(--accent-blue-light);">x</span></div>
+          </a>
+          <p>Your premier distributor and retailer of certified plumbing pipes, fittings, valves, water tanks, and sanitaryware solutions.</p>
+          <div style="display:flex; gap:0.75rem;">
+            <span style="background:rgba(255,255,255,0.1); padding:0.4rem 0.75rem; border-radius:4px; color:#fff; font-size:0.8rem;">ISO 9001:2015</span>
+            <span style="background:rgba(255,255,255,0.1); padding:0.4rem 0.75rem; border-radius:4px; color:#fff; font-size:0.8rem;">ASTM Certified</span>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Product Categories</h4>
+          <ul class="footer-links">
+            <li><a href="products.html?category=pipes-fittings">CPVC & UPVC Pipes</a></li>
+            <li><a href="products.html?category=taps-faucets">Bathroom Faucets & Taps</a></li>
+            <li><a href="products.html?category=sanitaryware">Sanitaryware & Toilets</a></li>
+            <li><a href="products.html?category=water-storage">Overhead Water Tanks</a></li>
+            <li><a href="products.html?category=valves-connectors">Brass Ball & Gate Valves</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Quick Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="home2.html">Home 2 (Alternative)</a></li>
+            <li><a href="about.html">About Business</a></li>
+            <li><a href="products.html">Product Catalogue</a></li>
+            <li><a href="services.html">B2B Contractor Services</a></li>
+            <li><a href="blog.html">Plumbing Buying Guides</a></li>
+            <li><a href="contact.html">Store Contact & Location</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Store Hours & Location</h4>
+          <p style="font-size:0.9rem; margin-bottom:0.5rem; display:flex; align-items:center; gap:0.5rem;"><svg
+              width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+              <circle cx="12" cy="10" r="3" />
+            </svg> 742 Industrial Parkway, Plumbing District</p>
+          <p style="font-size:0.9rem; margin-bottom:0.5rem; display:flex; align-items:center; gap:0.5rem;"><svg
+              width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2">
+              <path
+                d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+            </svg> +1 (800) 555-PLUMB / +1 (800) 555-7586</p>
+          <p style="font-size:0.9rem; margin-bottom:0.5rem; display:flex; align-items:center; gap:0.5rem;"><svg
+              width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+              <polyline points="22,6 12,13 2,6" />
+            </svg> sales@pipexsupplies.com</p>
+          <p style="font-size:0.85rem; color:var(--accent-blue); margin-top:0.75rem; display:flex; align-items:flex-start; gap:0.5rem;"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-top:2px;"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg><span>Mon - Sat: 7:30 AM - 7:00 PM<br>Sunday: 9:00 AM - 4:00 PM</span></p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>© 2026 Pipex Plumbing Supplies & Sanitaryware. All Rights Reserved.</div>
+        <div style="display:flex; gap: 1.5rem;">
+          <a href="contact.html" style="color:#94a3b8;">Terms of Sale</a>
+          <a href="contact.html" style="color:#94a3b8;">Privacy Policy</a>
+          <a href="contact.html" style="color:#94a3b8;">Contractor Login</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/products.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
