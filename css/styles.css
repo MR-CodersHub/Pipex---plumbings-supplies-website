@@ -986,9 +986,11 @@ button {
   align-items: center;
   gap: 0.6rem;
   font-family: var(--font-heading);
-  font-size: 1.3rem;
-  font-weight: 600;
+  font-size: 1.35rem;
+  font-weight: 700;
   color: var(--text-primary);
+  letter-spacing: -0.02em;
+  text-decoration: none;
 }
 
 .brand-icon {
@@ -1001,10 +1003,21 @@ button {
   align-items: center;
   justify-content: center;
   box-shadow: 0 4px 12px var(--accent-blue-glow);
+  flex-shrink: 0;
 }
 
-.brand-logo span {
+.brand-logo .brand-text {
+  display: inline-flex;
+  align-items: center;
+  font-weight: 700;
+  color: inherit;
+}
+
+.brand-logo span,
+.brand-logo .brand-accent {
   color: var(--accent-blue);
+  font-weight: 800;
+  display: inline;
 }
 
 .nav-menu {
@@ -4763,4 +4776,47 @@ h1, h2, h3, h4, h5, h6,
 [style*="font-weight:700"][style*="color:var(--accent-blue)"],
 [style*="font-weight: 700"][style*="color:var(--accent-blue)"] {
   font-weight: 600 !important;
+}
+
+/* ==========================================================================
+   Brand Logo & Footer Text Visibility Fixes
+   ========================================================================== */
+.brand-logo,
+.brand-logo .brand-text {
+  font-weight: 700 !important;
+  letter-spacing: -0.01em;
+}
+
+.brand-logo span,
+.brand-logo .brand-accent {
+  font-weight: 800 !important;
+}
+
+/* Site Footer Brand Logo - Always Crystal Clear on Dark Canvas (#071222) */
+.site-footer .brand-logo,
+.footer-brand .brand-logo {
+  color: #ffffff !important;
+}
+
+.site-footer .brand-logo div,
+.site-footer .brand-logo .brand-text,
+.footer-brand .brand-logo div,
+.footer-brand .brand-logo .brand-text {
+  color: #ffffff !important;
+  font-weight: 700 !important;
+  font-size: 1.35rem !important;
+  letter-spacing: -0.01em;
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+.site-footer .brand-logo span,
+.site-footer .brand-logo .brand-accent,
+.footer-brand .brand-logo span,
+.footer-brand .brand-logo .brand-accent {
+  color: #38bdf8 !important; /* High contrast vibrant sky-blue (contrast 9.7:1 on #071222) */
+  font-weight: 800 !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  text-shadow: 0 0 10px rgba(56, 189, 248, 0.4);
 }
